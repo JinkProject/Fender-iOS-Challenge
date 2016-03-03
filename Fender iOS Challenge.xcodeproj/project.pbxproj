@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A298F4C1C7D8918003BDE1A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A298F4B1C7D8918003BDE1A /* MapKit.framework */; };
+		F6B97BBB1C877F0D0048F507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6B97BB81C877E780048F507 /* Assets.xcassets */; };
+		F6B97BCA1C8780A60048F507 /* Checkbox.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B97BC91C8780A60048F507 /* Checkbox.m */; };
+		F6B97BCC1C8780B90048F507 /* Geolocation+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B97BCB1C8780B90048F507 /* Geolocation+CoreDataProperties.m */; };
+		F6B97BCE1C8780EF0048F507 /* Geolocation.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B97BCD1C8780EF0048F507 /* Geolocation.m */; };
+		F6B97BD01C8781100048F507 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B97BCF1C8781100048F507 /* ListViewController.m */; };
+		F6B97BD21C87811C0048F507 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B97BD11C87811C0048F507 /* MapViewController.m */; };
+		F6B97BD41C87812A0048F507 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B97BD31C87812A0048F507 /* AppDelegate.m */; };
+		F6B97BD61C8781360048F507 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B97BD51C8781360048F507 /* main.m */; };
+		F6B97BD81C8781550048F507 /* CoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B97BD71C8781550048F507 /* CoreDataStack.m */; };
+		F6B97BDB1C87815F0048F507 /* CoreDataIssue.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F6B97BD91C87815F0048F507 /* CoreDataIssue.xcdatamodeld */; };
+		F6B97BE01C8781EF0048F507 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6B97BDE1C8781EF0048F507 /* Main.storyboard */; };
+		F6B97BE31C8782050048F507 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6B97BE11C8782050048F507 /* LaunchScreen.storyboard */; };
+		F6F707FD1C877D6F002E83D7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6F707FA1C877CFE002E83D7 /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A298F0C1C7D7B43003BDE1A /* Fender iOS Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fender iOS Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A298F4B1C7D8918003BDE1A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1A9E8C551C7D9A8400ADE418 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "Fender iOS Challenge/AppDelegate.h"; sourceTree = "<group>"; };
+		1A9E8C641C7D9A8400ADE418 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListViewController.h; path = "Fender iOS Challenge/ListViewController.h"; sourceTree = "<group>"; };
+		F6605B081C86C88400359006 /* CoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataStack.h; path = "Fender iOS Challenge/CoreDataStack.h"; sourceTree = "<group>"; };
+		F6605B0E1C86DA3E00359006 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = "Fender iOS Challenge/MapViewController.h"; sourceTree = "<group>"; };
+		F6605B111C86E02B00359006 /* Checkbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Checkbox.h; path = "Fender iOS Challenge/Checkbox.h"; sourceTree = "<group>"; };
+		F6B97BB91C877E780048F507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Base; path = "Fender iOS Challenge/Base.lproj/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
+		F6B97BC91C8780A60048F507 /* Checkbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Checkbox.m; path = "Fender iOS Challenge/Checkbox.m"; sourceTree = SOURCE_ROOT; };
+		F6B97BCB1C8780B90048F507 /* Geolocation+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Geolocation+CoreDataProperties.m"; sourceTree = SOURCE_ROOT; };
+		F6B97BCD1C8780EF0048F507 /* Geolocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Geolocation.m; sourceTree = SOURCE_ROOT; };
+		F6B97BCF1C8781100048F507 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListViewController.m; path = "Fender iOS Challenge/ListViewController.m"; sourceTree = SOURCE_ROOT; };
+		F6B97BD11C87811C0048F507 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = "Fender iOS Challenge/MapViewController.m"; sourceTree = SOURCE_ROOT; };
+		F6B97BD31C87812A0048F507 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "Fender iOS Challenge/AppDelegate.m"; sourceTree = SOURCE_ROOT; };
+		F6B97BD51C8781360048F507 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Fender iOS Challenge/main.m"; sourceTree = SOURCE_ROOT; };
+		F6B97BD71C8781550048F507 /* CoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataStack.m; path = "Fender iOS Challenge/CoreDataStack.m"; sourceTree = SOURCE_ROOT; };
+		F6B97BDA1C87815F0048F507 /* CoreDataIssue.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataIssue.xcdatamodel; sourceTree = "<group>"; };
+		F6B97BDC1C8781A80048F507 /* Geolocation+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Geolocation+CoreDataProperties.h"; sourceTree = SOURCE_ROOT; };
+		F6B97BDD1C8781CE0048F507 /* Geolocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Geolocation.h; sourceTree = SOURCE_ROOT; };
+		F6B97BDF1C8781EF0048F507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Fender iOS Challenge/Base.lproj/Main.storyboard"; sourceTree = SOURCE_ROOT; };
+		F6B97BE21C8782050048F507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Fender iOS Challenge/Base.lproj/LaunchScreen.storyboard"; sourceTree = SOURCE_ROOT; };
+		F6F707FA1C877CFE002E83D7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Fender iOS Challenge/Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A298F091C7D7B43003BDE1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A298F4C1C7D8918003BDE1A /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A298F031C7D7B43003BDE1A = {
+			isa = PBXGroup;
+			children = (
+				1A9E8C541C7D9A8400ADE418 /* Fender Challenge */,
+				1A298F4B1C7D8918003BDE1A /* MapKit.framework */,
+				1A298F0D1C7D7B43003BDE1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A298F0D1C7D7B43003BDE1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A298F0C1C7D7B43003BDE1A /* Fender iOS Challenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A9E8C541C7D9A8400ADE418 /* Fender Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				F6B97BE41C8783890048F507 /* Custom */,
+				F6605B0D1C86CF3400359006 /* Views */,
+				F6605B0C1C86CF2300359006 /* Models */,
+				F6605B0B1C86CF0F00359006 /* View Controllers */,
+				F6605B071C86C83000359006 /* CoreDataStack */,
+				1A9E8C551C7D9A8400ADE418 /* AppDelegate.h */,
+				F6B97BD31C87812A0048F507 /* AppDelegate.m */,
+				F6F707FA1C877CFE002E83D7 /* Info.plist */,
+				F6B97BD51C8781360048F507 /* main.m */,
+				F6B97BB81C877E780048F507 /* Assets.xcassets */,
+			);
+			name = "Fender Challenge";
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		F6605B071C86C83000359006 /* CoreDataStack */ = {
+			isa = PBXGroup;
+			children = (
+				F6605B081C86C88400359006 /* CoreDataStack.h */,
+				F6B97BD71C8781550048F507 /* CoreDataStack.m */,
+				F6B97BD91C87815F0048F507 /* CoreDataIssue.xcdatamodeld */,
+			);
+			name = CoreDataStack;
+			sourceTree = "<group>";
+		};
+		F6605B0B1C86CF0F00359006 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1A9E8C641C7D9A8400ADE418 /* ListViewController.h */,
+				F6B97BCF1C8781100048F507 /* ListViewController.m */,
+				F6605B0E1C86DA3E00359006 /* MapViewController.h */,
+				F6B97BD11C87811C0048F507 /* MapViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		F6605B0C1C86CF2300359006 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F6B97BCB1C8780B90048F507 /* Geolocation+CoreDataProperties.m */,
+				F6B97BDC1C8781A80048F507 /* Geolocation+CoreDataProperties.h */,
+				F6B97BCD1C8780EF0048F507 /* Geolocation.m */,
+				F6B97BDD1C8781CE0048F507 /* Geolocation.h */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F6605B0D1C86CF3400359006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F6B97BDE1C8781EF0048F507 /* Main.storyboard */,
+				F6B97BE11C8782050048F507 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F6B97BE41C8783890048F507 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				F6605B111C86E02B00359006 /* Checkbox.h */,
+				F6B97BC91C8780A60048F507 /* Checkbox.m */,
+			);
+			name = Custom;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A298F0B1C7D7B43003BDE1A /* Fender iOS Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A298F3C1C7D7B43003BDE1A /* Build configuration list for PBXNativeTarget "Fender iOS Challenge" */;
+			buildPhases = (
+				1A298F081C7D7B43003BDE1A /* Sources */,
+				1A298F091C7D7B43003BDE1A /* Frameworks */,
+				1A298F0A1C7D7B43003BDE1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fender iOS Challenge";
+			productName = CoreDataIssue;
+			productReference = 1A298F0C1C7D7B43003BDE1A /* Fender iOS Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A298F041C7D7B43003BDE1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ReduxNil;
+				TargetAttributes = {
+					1A298F0B1C7D7B43003BDE1A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 1A298F071C7D7B43003BDE1A /* Build configuration list for PBXProject "Fender iOS Challenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A298F031C7D7B43003BDE1A;
+			productRefGroup = 1A298F0D1C7D7B43003BDE1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A298F0B1C7D7B43003BDE1A /* Fender iOS Challenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A298F0A1C7D7B43003BDE1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B97BBB1C877F0D0048F507 /* Assets.xcassets in Resources */,
+				F6B97BE31C8782050048F507 /* LaunchScreen.storyboard in Resources */,
+				F6F707FD1C877D6F002E83D7 /* Info.plist in Resources */,
+				F6B97BE01C8781EF0048F507 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A298F081C7D7B43003BDE1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B97BD01C8781100048F507 /* ListViewController.m in Sources */,
+				F6B97BCC1C8780B90048F507 /* Geolocation+CoreDataProperties.m in Sources */,
+				F6B97BD41C87812A0048F507 /* AppDelegate.m in Sources */,
+				F6B97BDB1C87815F0048F507 /* CoreDataIssue.xcdatamodeld in Sources */,
+				F6B97BCE1C8780EF0048F507 /* Geolocation.m in Sources */,
+				F6B97BD21C87811C0048F507 /* MapViewController.m in Sources */,
+				F6B97BD61C8781360048F507 /* main.m in Sources */,
+				F6B97BCA1C8780A60048F507 /* Checkbox.m in Sources */,
+				F6B97BD81C8781550048F507 /* CoreDataStack.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F6B97BB81C877E780048F507 /* Assets.xcassets */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6B97BB91C877E780048F507 /* Base */,
+			);
+			name = Assets.xcassets;
+			sourceTree = "<group>";
+		};
+		F6B97BDE1C8781EF0048F507 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6B97BDF1C8781EF0048F507 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6B97BE11C8782050048F507 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6B97BE21C8782050048F507 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A298F3A1C7D7B43003BDE1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1A298F3B1C7D7B43003BDE1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A298F3D1C7D7B43003BDE1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Fender iOS Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rubenperez.Fender-iOS-Challenge";
+				PRODUCT_NAME = "Fender iOS Challenge";
+			};
+			name = Debug;
+		};
+		1A298F3E1C7D7B43003BDE1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Fender iOS Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rubenperez.Fender-iOS-Challenge";
+				PRODUCT_NAME = "Fender iOS Challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A298F071C7D7B43003BDE1A /* Build configuration list for PBXProject "Fender iOS Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A298F3A1C7D7B43003BDE1A /* Debug */,
+				1A298F3B1C7D7B43003BDE1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A298F3C1C7D7B43003BDE1A /* Build configuration list for PBXNativeTarget "Fender iOS Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A298F3D1C7D7B43003BDE1A /* Debug */,
+				1A298F3E1C7D7B43003BDE1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F6B97BD91C87815F0048F507 /* CoreDataIssue.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F6B97BDA1C87815F0048F507 /* CoreDataIssue.xcdatamodel */,
+			);
+			currentVersion = F6B97BDA1C87815F0048F507 /* CoreDataIssue.xcdatamodel */;
+			name = CoreDataIssue.xcdatamodeld;
+			path = "../Fender iOS Challenge/CoreDataIssue.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1A298F041C7D7B43003BDE1A /* Project object */;
+}
